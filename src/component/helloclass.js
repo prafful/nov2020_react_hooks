@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from "semantic-ui-react";
 
 
 class HelloClass extends React.Component {
@@ -29,6 +30,9 @@ class HelloClass extends React.Component {
         return ( 
             <div>
                 <button onClick={this.increment}>Count {this.state.counter}</button>
+                <br></br>
+                <br></br>
+                <Button content="Semantic Button" primary></Button>
             </div>
          )
     }
